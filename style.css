@@ -11,19 +11,14 @@ body{
   padding-right: 15px;
   background-color: #ffffff;
   border-top: 10px solid #ffaa00;
-  position: absolute;
-  left: 150px;
-  top: 150px;
+  margin: 40px auto 0 auto;
   box-shadow: 4px 4px 0px #bbbbbb ;
   width: 650px;
+  max-width: 50%;
 }
 #title{
   font-family: 'Arvo';
   font-weight: 700;
   font-size: 48px;
   text-align: center;
-}
-
-h1{
-
 }
