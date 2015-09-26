@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-    <link rel="icon" href="/images/favreaucon.png" type="image/png">
+    </*link rel="icon" href="/images/favreaucon.png" type="image/png"*/>
     
     <meta property="og:title" content="Alyssa Plan"/>
     <meta property="og:image" content="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/17356_1334941619676_8125128_n.jpg?oh=b4b9ae836b1b0bad3f1a9f09ab0158e3&oe=5488072C&__gda__=1418305299_7babf0d0f22be6305327d8a0e2e83b2a"/>
@@ -15,7 +15,7 @@
     <meta property="og:description" content="Alyssa Plan's Page."/>
     <meta property="og:url" content="https://akplan.github.io"/>
     
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:bold" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Titillium+Web:300,700bold" rel='stylesheet' type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap -->
@@ -29,38 +29,53 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
+  <body data-spy="scroll" data-target=".navbar" data-offset="62" class="test">
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Alyssa K. Plan</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href="#">A.K. Plan</a>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-	    <li><a href="#mystuff">My Stuff</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+        <div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#myprojects">Projects</a></li>
+                    <li><a href="#other">Other</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
     </div>
+    </nav>
 
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Alyssa K. Plan</h1>
-        <p class="lead">Hello world!</p>
+      <div id="home">
+          <div class="container-fluid">
+              <h1>Hello, I'm Alyssa!</h1>
+              <h2>I love making things.</h2>
+          </div>
       </div>
 
-    </div>
+      <div id="myprojects">
+          <h1>My Projects</h1>
+          <h2>Here's some stuff I made.</h2>
+      </div>
+
+      <div id="other">
+          <h1>My Other Work</h1>
+          <h2>Here's some other cool stuff I do.</h1>
+      </div>
+
+      <div id="contact">
+          <h1>Contact Me</h1>
+          <h2>Let's be friends.</h2>
+      </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
