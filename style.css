@@ -44,6 +44,16 @@ body {
     font-size: 13px;
 }
 
+a:link{
+    text-decoration: none;
+    /*color: #FF9800;*/
+}
+
+a:visited{
+    text-decoration: none;
+    /*color: #FF9800;*/
+}
+
 h1,
 h2,
 h3,
@@ -256,7 +266,7 @@ a.pure-button-primary {
 .grid-wrapper{
     border-radius: .5em;
     padding: 2em;
-    background: #CFD8DC;
+    background: #E0E0E0;
     
 }
 
@@ -333,4 +343,12 @@ a.pure-button-primary {
     .splash-subhead {
         font-size: 250%;
     }
+}
+
+
+/* For social button sizes. */
+
+.button-xlarge {
+            font-size: 200%;
+            background: #FF9800;
 }
